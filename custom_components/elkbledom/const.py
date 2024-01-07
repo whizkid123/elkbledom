@@ -28,9 +28,33 @@ class EFFECTS (Enum):
     blink_white = 0x9c
     blink_red_green_blue_yellow_cyan_magenta_white = 0x95
 
-EFFECTS_list = ['jump_red_green_blue',
+EFFECTS_list_1 = ['jump_red_green_blue',
     'jump_red_green_blue_yellow_cyan_magenta_white',
     'crossfade_red',
+    'crossfade_green',
+    'crossfade_blue',
+    'crossfade_yellow',
+    'crossfade_cyan',
+    'crossfade_magenta',
+    'crossfade_white',
+    'crossfade_red_green',
+    'crossfade_red_blue',
+    'crossfade_green_blue',
+    'crossfade_red_green_blue',
+    'crossfade_red_green_blue_yellow_cyan_magenta_white',
+    'blink_red',
+    'blink_green',
+    'blink_blue',
+    'blink_yellow',
+    'blink_cyan',
+    'blink_magenta',
+    'blink_white',
+    'blink_red_green_blue_yellow_cyan_magenta_white'
+    ]
+
+EFFECTS_list_2 = ['jump_red_green_blue',
+    'jump_red_green_blue_yellow_cyan_magenta_white',
+    'crossfade_red_test',
     'crossfade_green',
     'crossfade_blue',
     'crossfade_yellow',
