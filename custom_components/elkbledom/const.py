@@ -54,7 +54,7 @@ EFFECTS_list = ['jump_red_green_blue',
 
 EFFECTS_list_2 = ['----STYLE BASIC----',
     'power off', 'y-c-p flush open',
-    'y-c-p flush close',',
+    'y-c-p flush close',
     'r-g-b flush close',
 	'7-color open',
 	'7-color close',
