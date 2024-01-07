@@ -5,7 +5,7 @@ import voluptuous as vol
 from typing import Any, Optional, Tuple
 
 from .elkbledom import BLEDOMInstance
-from .const import DOMAIN, EFFECTS, EFFECTS_list_1, EFFECTS_list_1
+from .const import DOMAIN, EFFECTS, EFFECTS_list, EFFECTS_list_2
 
 from homeassistant.const import CONF_MAC
 import homeassistant.helpers.config_validation as cv
@@ -72,10 +72,7 @@ class BLEDOMLight(LightEntity):
         return self._instance.min_color_temp_kelvin
 
     @property
-    def effect_list_1(self):
-        return EFFECTS_list_1
-    @property
-    def effect_list_2(self):
+    def effect_list(self):
         return EFFECTS_list_2
     
     @property
