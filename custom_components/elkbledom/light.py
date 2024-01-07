@@ -74,7 +74,7 @@ class BLEDOMLight(LightEntity):
     @property
     def effect_list_1(self):
         return EFFECTS_list_1
-@property
+    @property
     def effect_list_2(self):
         return EFFECTS_list_2
     
