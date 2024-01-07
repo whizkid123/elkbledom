@@ -72,9 +72,12 @@ class BLEDOMLight(LightEntity):
         return self._instance.min_color_temp_kelvin
 
     @property
-    def effect_list(self):
-        return EFFECTS_list
-
+    def effect_list_1(self):
+        return EFFECTS_list_1
+@property
+    def effect_list_2(self):
+        return EFFECTS_list_2
+    
     @property
     def rgb_color(self):
         if self._instance.rgb_color:
