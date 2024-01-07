@@ -5,7 +5,7 @@ import voluptuous as vol
 from typing import Any, Optional, Tuple
 
 from .elkbledom import BLEDOMInstance
-from .const import DOMAIN, EFFECTS, EFFECTS_list
+from .const import DOMAIN, EFFECTS, EFFECTS_list_1, EFFECTS_list_1
 
 from homeassistant.const import CONF_MAC
 import homeassistant.helpers.config_validation as cv
