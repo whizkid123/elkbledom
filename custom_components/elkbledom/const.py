@@ -286,9 +286,6 @@ EFFECTS_list = ['jump_red_green_blue',
     'blink_magenta',
     'blink_white',
     'blink_red_green_blue_yellow_cyan_magenta_white'
-    ]
-
-EFFECTS_list_2 = [
 	'----STYLE BASIC----',
     	'auto_play',
     	'magic_forward',
