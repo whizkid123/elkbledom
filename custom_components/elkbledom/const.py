@@ -5,6 +5,218 @@ CONF_RESET = "reset"
 CONF_DELAY = "delay"
 
 class EFFECTS (Enum):
+    	auto_play = 0x00
+   	magic_forward = 0x00
+    	magic_back = 0x00
+   	seven_color_energy = 0x00
+	seven_color_jump = 0x00
+	r_g_b_jump = 0x00
+	y_c_p_jump = 0x00
+	seven_color_strobe = 0x00
+	r_g_b_strobe = 0x00
+	y_c_p_strobe = 0x00
+	seven_color_gradual = 0x00
+	r_y_gradual = 0x00
+	r_p_gradual = 0x00
+	g_c_gradual = 0x00
+	g_y_gradual = 0x00
+	b_p_gradual = 0x00
+	red_marquee = 0x00
+	green_marquee = 0x00
+	blue_marquee = 0x00
+	yellow_marquee = 0x00
+	cyan_marquee = 0x00
+	purple_marquee = 0x00
+	white_marquee = 0x00
+	seven_color_race = 0x00
+	seven_color_race_back = 0x00
+	r_g_b_race = 0x00
+	r_g_b_race_back = 0x00
+	y_c_p_race = 0x00
+	y_c_p_race_back = 0x00
+	seven_color_wave = 0x00
+	seven_color_wave_back = 0x00
+	r_g_b_wave = 0x00
+	r_g_b_wave_back = 0x00
+	y_c_p_wave = 0x00
+	y_c_p_wave_back = 0x00
+	seven_color_flush = 0x00
+	seven_color_flush_back = 0x00
+	r_g_b_flush = 0x00
+        r_g_b_flush_back = 0x00
+	y_c_p_flush = 0x00
+ 	y_c_p_flush_back = 0x00
+	seven_color_flush_close = 0x00
+	seven_color_flush_open = 0x00
+	r_g_b_flush_open = 0x00
+	y_c_p_flush_close = 0x00
+ 	y_c_p_flush_open = 0x00
+	seven_color_close = 0x00
+	seven_color_open = 0x00
+	r_g_b_close = 0x00
+	r_g_b_open = 0x00
+	y_c_p_close = 0x00
+	y_c_p_open = 0x00
+	red_close = 0x00
+	red_open = 0x00
+	green_close = 0x00
+	green_open = 0x00
+	blue_close = 0x00
+	blue_close = 0x00
+	yellow_close = 0x00
+	yellow_open = 0x00
+	cyan_close = 0x00
+	cyan_open = 0x00
+	purple_close = 0x00
+	purple_open = 0x00
+	white_close = 0x00
+	white_open = 0x00
+	seven_color_trans = 0x00
+	seven_color_trans_back = 0x00
+	r_g_b_trans = 0x00
+	r_g_b_trans_back = 0x00
+	y_c_p_trans = 0x00
+	y_c_p_trans_back = 0x00
+	six_color_to_red = 0x00
+	six_color_to_red_back = 0x00
+	six_color_to_green = 0x00
+	six_color_to_green_back = 0x00
+	six_color_to_blue = 0x00
+	six_color_to_blue_back = 0x00
+	six_color_to_cyan = 0x00
+	six_color_to_cyan_back = 0x00
+	six_color_to_yellow = 0x00
+	six_color_to_yellow_back = 0x00
+	six_color_to_purple = 0x00
+	six_color_to_purple_back = 0x00
+	six_color_to_white = 0x00
+	six_color_to_white_back = 0x00
+	seven_color_water = 0x00
+	seven_color_water_back = 0x00
+	r_g_b_water = 0x00
+	r_g_b_water_back = 0x00
+	y_c_p_water = 0x00
+	y_c_p_water_back = 0x00
+	r_g_water = 0x00
+	r_g_water_back = 0x00
+	g_b_water = 0x00
+	g_b_water_back = 0x00
+	y_b_water = 0x00
+	y_b_water_back = 0x00
+	y_c_water = 0x00
+	y_c_water_back = 0x00
+	c_p_water = 0x00
+	c_p_water_back = 0x00
+	white_water = 0x00
+	white_water_back = 0x00
+	w_r_w_flow = 0x00
+	w_r_w_flow_back = 0x00
+	w_g_w_flow = 0x00
+	w_g_w_flow_back = 0x00
+	w_b_w_flow = 0x00
+	w_b_w_flow_back = 0x00
+	w_y_w_flow = 0x00
+	w_y_w_flow_back = 0x00
+	w_c_w_flow = 0x00
+	w_c_w_flow_back = 0x00
+	w_p_w_flow = 0x00
+	w_p_w_flow_back = 0x00
+	r_w_r_flow = 0x00
+	r_w_r_flow_back = 0x00
+	g_w_g_flow = 0x00
+	g_w_g_flow_back = 0x00
+	b_w_b_flow = 0x00
+	b_w_b_flow_back = 0x00
+	y_w_y_flow = 0x00
+	y_w_y_flow_back = 0x00
+	c_w_c_flow = 0x00
+	c_w_c_flow_back = 0x00
+	p_w_p_flow = 0x00
+	p_w_p_flow_back = 0x00
+	seven_color_tail = 0x00
+	seven_color_tail_back = 0x00
+	red_tail = 0x00
+	red_tail_back = 0x00
+	green_tail = 0x00
+	green_tail_back = 0x00
+	blue_tail = 0x00
+	blue_tail_back = 0x00
+	yellow_tail = 0x00
+	yellow_tail_back = 0x00
+	cyan_tail = 0x00
+	cyan_tail_back = 0x00
+	purple_tail = 0x00
+	purple_tail_back = 0x00
+	white_tail = 0x00
+	white_tail_back = 0x00
+	red_running = 0x00
+	green_running = 0x00
+	blue_running = 0x00
+	yellow_running = 0x00
+	cyan_running = 0x00
+	purple_running = 0x00
+	white_running = 0x00
+	seven_color_running = 0x00
+	r_g_b_running = 0x00
+	y_c_p_running = 0x00
+	b_p_c_y_running = 0x00
+	b_g_c_y_running = 0x00
+	red_dot_in_white_running = 0x00
+	green_dot_in_red_running = 0x00
+	blue_dot_in_green_running = 0x00
+	yellow_dot_in_blue_running = 0x00
+	cyan_dot_in_yellow_running = 0x00
+	purple_dot_in_cyan_running = 0x00
+	white_dot_in_purple_running = 0x00
+	white_dot_in_red_running = 0x00
+	seven_color_dot_in_red_running = 0x00
+	seven_color_dot_in_green_running = 0x00
+	seven_color_dot_in_blue_running = 0x00
+	seven_color_dot_in_yellow_running = 0x00
+	seven_color_dot_in_cyan_running = 0x00
+	seven_color_dot_in_purple_running = 0x00
+	seven_color_dot_in_white_running = 0x00
+	green_dot_in_blue_running = 0x00
+	green_dot_in_red_running = 0x00
+	red_dot_in_blue_running = 0x00
+	cyan_dot_in_yellow_running = 0x00
+	yellow_dot_in_purple_running = 0x00
+	white_dot_in_yellow_running = 0x00
+	yellow_dot_in_white_running = 0x00
+	red_running_back = 0x00
+	green_running_back = 0x00
+	blue_running_back = 0x00
+	yellow_running_back = 0x00
+	cyan_running_back = 0x00
+	purple_running_back = 0x00
+	white_running_back = 0x00
+	seven_color_running_back = 0x00
+	r_g_b_running_back = 0x00
+	y_c_p_running_back = 0x00
+	b_p_c_y_running_back = 0x00
+	b_g_c_y_running_back = 0x00
+	red_dot_in_white_running_back = 0x00
+	green_dot_in_red_running_back = 0x00
+	blue_dot_in_green_running_back = 0x00
+	yellow_dot_in_blue_running_back = 0x00
+	cyan_dot_in_yellow_running_back = 0x00
+	purple_dot_in_cyan_running_back = 0x00
+	white_dot_in_purple_running_back = 0x00
+	white_dot_in_red_running_back = 0x00
+	seven_color_dot_in_red_running_back = 0x00
+	seven_color_dot_in_green_running_back = 0x00
+	seven_color_dot_in_blue_running_back = 0x00
+	seven_color_dot_in_yellow_running_back = 0x00
+	seven_color_dot_in_cyan_running_back = 0x00
+	seven_color_dot_in_purple_running_back = 0x00
+	seven_color_dot_in_white_running_back = 0x00
+	green_dot_in_blue_running_back = 0x00
+	green_dot_in_red_running_back = 0x00
+	red_dot_in_blue_running_back = 0x00
+	cyan_dot_in_yellow_running_back = 0x00
+	yellow_dot_in_purple_running_back = 0x00
+	white_dot_in_yellow_running_back = 0x00
+    yellow_dot_in_white_running_back = 0x00
     y_c_p_flush_open = 0xc0
     y_c_p_flush_close = 0xbf
     r_g_b_flush_open = 0xbe
@@ -39,19 +251,18 @@ class EFFECTS (Enum):
     b_p_gradual = 0xcc
     g_y_gradual = 0xcb
     g_c_gradual = 0xca
-	r_p_gradual = 0xc9
-	r_y_gradual = 0xc8
-	seven_color_gradual = 0xc7
-	y_c_p_strobe = 0xc6
-	r_g_b_strobe = 0xc5
-	seven_color_strobe = 0xc4
-	y_c_p_jump = 0xc3
-	r_g_b_jump = 0xc2
-	seven_color_jump = 0xc1
-	seven_color_energy = 0xd4
-	magic_back = 0x02
-	magic_forward = 0x01
-	autoplay = 0x00
+    r_p_gradual = 0xc9
+    r_y_gradual = 0xc8
+    seven_color_gradual = 0xc7
+    y_c_p_strobe = 0xc6
+    r_g_b_strobe = 0xc5
+    seven_color_strobe = 0xc4
+    y_c_p_jump = 0xc3
+    r_g_b_jump = 0xc2
+    seven_color_jump = 0xc1
+    seven_color_energy = 0xd4
+    magic_back = 0x02
+    magic_forward = 0x01
 
 EFFECTS_list = ['jump_red_green_blue',
     'jump_red_green_blue_yellow_cyan_magenta_white',
@@ -79,10 +290,10 @@ EFFECTS_list = ['jump_red_green_blue',
 
 EFFECTS_list_2 = [
 	'----STYLE BASIC----',
-    'auto_play',
-    'magic_forward',
-    'magic_back',
-    'seven_color_energy',
+    	'auto_play',
+    	'magic_forward',
+    	'magic_back',
+    	'seven_color_energy',
 	'seven_color_jump',
 	'r_g_b_jump',
 	'y_c_p_jump',
@@ -117,7 +328,7 @@ EFFECTS_list_2 = [
 	'seven_color_flush',
 	'seven_color_flush_back',
 	'r_g_b_flush',
-    'r_g_b_flush_back',
+    	'r_g_b_flush_back',
 	'y_c_p_flush',
  	'y_c_p_flush_back',
 	'seven_color_flush_close',
@@ -146,7 +357,7 @@ EFFECTS_list_2 = [
 	'purple_open',
 	'white_close',
 	'white_open',
-    '----STYLE TRANS----',
+    	'----STYLE TRANS----',
 	'seven_color_trans',
 	'seven_color_trans_back',
 	'r_g_b_trans',
@@ -167,8 +378,7 @@ EFFECTS_list_2 = [
 	'six_color_to_purple_back',
 	'six_color_to_white',
 	'six_color_to_white_back',
-	
-    '----STYLE WATER----',
+    	'----STYLE WATER----',
 	'seven_color_water',
 	'seven_color_water_back',
 	'r_g_b_water',
@@ -187,7 +397,7 @@ EFFECTS_list_2 = [
 	'c_p_water_back',
 	'white_water',
 	'white_water_back',
-    '----STYLE FLOW----',
+    	'----STYLE FLOW----',
 	'w_r_w_flow',
 	'w_r_w_flow_back',
 	'w_g_w_flow',
@@ -212,8 +422,7 @@ EFFECTS_list_2 = [
 	'c_w_c_flow_back',
 	'p_w_p_flow',
 	'p_w_p_flow_back',
-	
-    '----STYLE TAIL----',
+    	'----STYLE TAIL----',
 	'seven_color_tail',
 	'seven_color_tail_back',
 	'red_tail',
@@ -230,7 +439,7 @@ EFFECTS_list_2 = [
 	'purple_tail_back',
 	'white_tail',
 	'white_tail_back',
-    '----STYLE RUNNING----',
+    	'----STYLE RUNNING----',
 	'red_running',
 	'green_running',
 	'blue_running',
@@ -265,7 +474,7 @@ EFFECTS_list_2 = [
 	'yellow_dot_in_purple_running',
 	'white_dot_in_yellow_running',
 	'yellow_dot_in_white_running',
-    '----STYLE RUNBACK----',
+    	'----STYLE RUNBACK----',
 	'red_running_back',
 	'green_running_back',
 	'blue_running_back',
