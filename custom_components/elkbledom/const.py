@@ -251,8 +251,8 @@ EFFECTS_list = ['jump_red_green_blue',
     ]
 
 EFFECTS_list_2 = ['----STYLE BASIC----',
-    'auto_play',
-    'magic_forward',
+    'Autoplay',
+    'Magic Forward',
     'magic_back',
     'seven_color_energy',
 	'seven_color_jump',
