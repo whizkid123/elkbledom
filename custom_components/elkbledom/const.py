@@ -52,7 +52,6 @@ r_g_b_flush_close	=	0xbd
 r_g_b_flush_open	=	0xbe
 y_c_p_flush_close	=	0xbf
 y_c_p_flush_open	=	0xc0
-
 seven_color_close	=	0x39
 seven_color_open	=	0x3a
 r_g_b_close	=	0x3b
@@ -73,7 +72,6 @@ purple_close	=	0x49
 purple_open	=	0x4a
 white_close	=	0x4b
 white_open	=	0x4c
-
 seven_color_trans	=	0x03
 seven_color_trans_back	=	0x04
 r_g_b_trans	=	0x05
@@ -94,7 +92,6 @@ six_color_to_purple	=	0x13
 six_color_to_purple_back	=	0x14
 six_color_to_white	=	0x15
 six_color_to_white_back	=	0x16
-	
 seven_color_water	=	0x27
 seven_color_water_back	=	0x28
 r_g_b_water	=	0x29
@@ -113,7 +110,6 @@ c_p_water	=	0x35
 c_p_water_back	=	0x36
 white_water	=	0x37
 white_water_back	=	0x38
-
 w_r_w_flow	=	0x8f
 w_r_w_flow_back	=	0x90
 w_g_w_flow	=	0x91
@@ -138,7 +134,6 @@ c_w_c_flow	=	0xa3
 c_w_c_flow_back	=	0xa4
 p_w_p_flow	=	0xa5
 p_w_p_flow_back	=	0xa6
-	
 seven_color_tail	=	0x17
 seven_color_tail_back	=	0x18
 red_tail	=	0x19
@@ -155,7 +150,6 @@ purple_tail	=	0x23
 purple_tail_back	=	0x24
 white_tail	=	0x25
 white_tail_back	=	0x26
-
 red_running	=	0x59
 green_running	=	0x5b
 blue_running	=	0x5d
@@ -190,7 +184,6 @@ cyan_dot_in_yellow_running	=	0xad
 yellow_dot_in_purple_running	=	0xaf
 white_dot_in_yellow_running	=	0xb1
 yellow_dot_in_white_running	=	0xb3
-
 red_running_back	=	0x5a
 green_running_back	=	0x5c
 blue_running_back	=	0x5e
