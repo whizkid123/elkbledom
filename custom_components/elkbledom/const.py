@@ -166,7 +166,7 @@ class EFFECTS (Enum):
     multiple_green_dot_in_red_running	=	0x73
     blue_dot_in_green_running	=	0x75
     yellow_dot_in_blue_running	=	0x77
-    cyan_dot_in_yellow_running	=	0x79
+    multiple_cyan_dot_in_yellow_running	=	0x79
     purple_dot_in_cyan_running	=	0x7b
     white_dot_in_purple_running	=	0x7d
     white_dot_in_red_running	=	0x7f
@@ -200,7 +200,7 @@ class EFFECTS (Enum):
     multiple_green_dot_in_red_running_back	=	0x74
     blue_dot_in_green_running_back	=	0x76
     yellow_dot_in_blue_running_back	=	0x78
-    cyan_dot_in_yellow_running_back	=	0x7a
+    multiple_cyan_dot_in_yellow_running_back	=	0x7a
     purple_dot_in_cyan_running_back	=	0x7c
     white_dot_in_purple_running_back	=	0x7e
     white_dot_in_red_running_back	=	0x80
@@ -413,7 +413,7 @@ EFFECTS_list_2 = ['----STYLE BASIC----',
 	'multiple_green_dot_in_red_running',
 	'blue_dot_in_green_running',
 	'yellow_dot_in_blue_running',
-	'cyan_dot_in_yellow_running',
+	'multiple_cyan_dot_in_yellow_running',
 	'purple_dot_in_cyan_running',
 	'white_dot_in_purple_running',
 	'white_dot_in_red_running',
