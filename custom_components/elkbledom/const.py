@@ -178,7 +178,7 @@ class EFFECTS (Enum):
     seven_color_dot_in_purple_running	=	0x8b
     seven_color_dot_in_white_running	=	0x8d
     green_dot_in_blue_running	=	0xa7
-    green_dot_in_red_running	=	0xa9
+    green_dot_in_red_running_2	=	0xa9
     red_dot_in_blue_running	=	0xab
     cyan_dot_in_yellow_running	=	0xad
     yellow_dot_in_purple_running	=	0xaf
