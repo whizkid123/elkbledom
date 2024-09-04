@@ -63,7 +63,7 @@ class EFFECTS (Enum):
     green_close	=	0x41
     green_open	=	0x42
     blue_close	=	0x43
-    blue_close	=	0x44
+    blue_open	=	0x44
     yellow_close	=	0x45
     yellow_open	=	0x46
     cyan_close	=	0x47
