@@ -5,7 +5,6 @@ CONF_RESET = "reset"
 CONF_DELAY = "delay"
 
 class EFFECTS (Enum):
-	
 	y_c_p_flush_open = 0xc0
     	y_c_p_flush_close = 0xbf
     	r_g_b_flush_open = 0xbe
